@@ -1,0 +1,122 @@
+
+
+div[id="top"] {
+    background-color: black;
+    margin-top: -1rem;
+    padding-top: 1.5rem;
+    background-size: cover;
+    margin-bottom: -1rem;
+}
+
+.Menu {
+    padding-left: 7rem;
+    font-size: 2rem;
+}
+
+nav {
+    display: block;
+}
+
+nav li {
+    display: inline;
+}
+
+.top-links {
+    text-align: center;
+    word-spacing: 4rem;
+    margin-top: -1rem;
+}
+
+.feature-image {
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+img[src="Images/theater-image-background.png"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.month-year {
+    justify-items: center;
+    width: 60%;
+    transform: translate(32%);
+    height: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(236, 233, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 275px);
+    grid-row-gap: 50px;
+    grid-column-gap: 17rem;
+    padding-left: 13rem;
+    border-color: black;
+    
+}
+
+
+img[src="./Images/a-raisin-in-the-sun-theater-1.png"] {
+    height: 175px;
+    position:absolute;
+    padding-left: 9rem;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button[type="read-more"] {
+    font-size: large;
+    color: white;
+    width: 50%;
+    height: 5rem;
+    margin-top: 4rem;
+    background-color: rgb(243, 188, 49);
+    letter-spacing: 1px;
+}
+
+hr {
+    transform: rotate();
+    margin-top: 13rem;
+    margin-left: 9rem;
+    width: 69rem;
+}
+
+div[id="bottom"] {
+    background-color: black;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.grid-container-2 {
+    color: white;
+    padding-top: 5rem;
+    padding-left: 20rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-column-gap: 5rem;
+    margin-bottom: -1rem;
+    letter-spacing: 1px;
+}
+
+.grid-item-1b {
+    margin-top: 5rem;
+}
+
+
+.icon {
+    color: darkgoldenrod;
+    background-color: black;
+    font-size: larger;
+
+}
